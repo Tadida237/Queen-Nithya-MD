@@ -46,7 +46,7 @@ voice  :  process.env.AUTO_VOICE === undefined ? false : process.env.AUTO_VOICE,
  }, 
    VERSION: process.env.VERSION === undefined ? 'v.0.0.2' : process.env.VERSION, 
    LANG: process.env.THEME|| '-', 
-   WORKTYPE: process.env.WORKTYPE === undefined ? 'public' : process.env.WORKTYPE 
+   WORKTYPE: process.env.WORKTYPE === undefined ? 'private : process.env.WORKTYPE 
  }; 
   
   
