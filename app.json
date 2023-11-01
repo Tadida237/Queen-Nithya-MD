@@ -8,14 +8,14 @@
  "env": { 
    "OWNER_NAME": { 
    "description": "Name of Bot Owner", 
-       "value": "Dileepa" 
+       "value": "íɑʍDarryℓ" 
    }, 
    "ALIVE_MESSAGE": { 
      "description": "Alive message for bot", 
       "required" :false 
      }, 
      "SESSION_ID": {
-      "description": "Please put your SESSION_ID here"
+      "description": "DespisesDesire"
     },
      "AUTO_STATUS_SAVER": { 
        "description": "Automatically saves status of every person and sends in log number.", 
@@ -55,7 +55,7 @@
        "READ_MESSAGE": { 
      "description": "Fill the value true if you want bot to read all messages.", 
       "required" :false, 
-      "value": "true" 
+      "value": "false" 
      }, 
     "DISABLE_PM": { 
      "description": "Disable bot in pm", 
@@ -67,7 +67,7 @@
    }, 
    "OWNER_NUMBER": { 
      "description": "The phone numbers of the users who you want to be admin for the bot (should be in international format without + and multiple numbers must be separated by a comma \",\")", 
-        "value": "94705674697" 
+        "value": "237698261295" 
    }, 
      "OPENAI_API_KEY": { 
      "description": "Please put your OPENAI api key here.Get it from beta.openai.com ", 
@@ -76,7 +76,7 @@
    }, 
    "MONGODB_URI": { 
      "description": "A secret String for Mongodb Connection.(Required),change for better experience", 
-     "value": "mongodb+srv://sam:sam@cluster0.u1smxsv.mongodb.net/?retryWrites=true&w=majority" 
+     "value": "mongodb://uzgaxfqktgpgentgvrqy:KTtxEvQMjl17dcCCcZN@bw4vifv5c0lstqzry1h9-mongodb.services.clever-cloud.com:2202/bw4vifv5c0lstqzry1h9" 
    }, 
      "THEME": { 
      "description": "Put the theme name you want to use. Avilable themes are SECKTOR,ZEROTWO,NEZUKO,LUFFY,GOKU and many more..", 
@@ -84,11 +84,11 @@
    }, 
      "WORKTYPE": { 
    "description": "Worktype of your bot. Use public or private, if it is private then only bot number can use it. If public then everyone can use it.", 
-          "value": "public" 
+          "value": "private" 
    }, 
        "AUTO_REACTION": { 
      "description": "Reacts emoji to all commands.", 
-      "value": "true", 
+      "value": "false", 
       "required": false  
    }, 
    "AUTO_BIO": { 
@@ -103,17 +103,17 @@
    },
  "AUTO_READ_STATUS": { 
      "description": "Auto Seen all status.", 
-      "value": "true", 
+      "value": "false", 
       "required": false  
    },
  "AUTO_VOICE": { 
      "description": "Automatic send Voice massage.", 
-      "value": "true", 
+      "value": "false", 
       "required": false  
    },   
    "PACK_INFO": { 
      "description": "Put packname;authorname.", 
-      "value": "Dileepa;Nithya", 
+      "value": "Dems;íɑʍDarryℓ", 
       "required": false  
    }, 
    "heroku": { 
