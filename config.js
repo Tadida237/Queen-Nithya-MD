@@ -5,7 +5,7 @@ const fs = require('fs-extra')
  //═══════[Required Variables]════════\\ 
  global.owner = process.env.OWNER_NUMBER.split("237698261295,237698261295") 
  global.mongodb = process.env.MONGODB_URI || "mongodb://uzgaxfqktgpgentgvrqy:KTtxEvQMjl17dcCCcZN@bw4vifv5c0lstqzry1h9-mongodb.services.clever-cloud.com:2202/bw4vifv5c0lstqzry1h9" 
- global.port= process.env.PORT || 5000 
+ global.port= process.env.PORT || 2202 
  global.email = 'sam@secktor.live' 
  global.github = 'https://github.com/nipuna15' 
  global.location = 'Sri lanka, Monaragala' 
